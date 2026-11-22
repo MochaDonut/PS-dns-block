@@ -1,0 +1,183 @@
+# Title: Combined PS4, PS5 & PS Vita Update Blocklist for Technitium DNS Server
+# Credits: MODDED WARFARE, CasperMcFadden95, Al-Azif, depressive_monk, MagicStuffCL, drakmor
+# Format: Technitium DNS Server (Domain / Wildcard List)
+# Original Sources can be found at the following links: 
+# https://github.com/phoanglong/ps4-dns-block
+# https://github.com/cjrb007/ps5-dns-block
+# https://github.com/drakmor/nanoDNS
+# https://github.com/MagicStuffCL/DnsblockListPS4PS5_Adguardhome
+# https://github.com/Misl3d/PS-dns-block/
+# https://www.youtube.com/c/MODDEDWARFARE
+# https://www.psxhax.com/threads/how-to-block-ps4-updates-on-any-playstation-4-firmware-guide.2207/
+# https://www.psxhax.com/threads/delete-ps4-system-update-nag.984/#post-7913
+
+# ===============================================================
+# Root Domains (Blocks the domain and all subdomains in Technitium)
+# ===============================================================
+playstation.com
+playstation.net
+playstation.org
+psndl.net
+scea.com
+sonyentertainmentnetwork.com
+
+# ===============================================================
+# Third-Party CDNs & External Endpoints
+# ===============================================================
+a01.cdn.update.playstation.org.edgesuite.net
+a192.d.akamai.net
+api-p014.ribob01.net
+apicdn-p014.ribob01.net
+artcdnsecure.ribob01.net
+b0.ww.np.dl.playstation.net.edgesuite.net
+gs.ww.np.dl.playstation.net.edgesuite.net
+gs2.ww.prod.dl.playstation.net.edgesuite.net
+gst.prod.dl.playstation.net.edgesuite.net
+playstation.sony.akadns.net
+sgst.prod.dl.playstation.net.edgesuite.net
+the.gate.sony.com
+
+# ===============================================================
+# Console System Software Update Wildcards (Covers all regions)
+# ===============================================================
+ps4.update.playstation.net
+ps5.update.playstation.net
+psp2.update.playstation.net
+psv.update.playstation.net
+
+# ===============================================================
+# Core Update, Service & PSN Endpoints
+# ===============================================================
+al02.cdn.update.playstation.net
+apollo.dl.playstation.net
+apollo2.dl.playstation.net
+asm.np.community.playstation.net
+b0.ww.np.dl.playstation.net
+cfss.crs.playstation.net
+crepo.ww.dl.playstation.net
+csla.np.community.playstation.net
+ecode.np.cs.playstation.net
+ena.net.playstation.net
+envelope2.np.dl.playstation.net
+event.api.np.km.playstation.net
+fswitch.dl.playstation.net
+get.net.playstation.net
+gs-sec.ww.np.dl.playstation.net
+gs.ww.np.dl.playstation.net
+gs2.ww.prod.dl.playstation.net
+gst.prod.dl.playstation.net
+manuals.playstation.net
+nsx.sec.np.dl.playstation.net
+oqesn.np.dl.playstation.net
+oss.dl.playstation.net
+post.net.playstation.net
+ps4-eb.ww.np.dl.playstation.net
+ps4-system.sec.np.dl.playstation.net
+ps4.updptl.sp-int.community.playstation.net
+ps4updptl.eu.np.community.playstation.net
+ps4updptl.jp.sp-int.community.playstation.net
+ps4updptl.uk.np.community.playstation.net
+ps4updptl.us.np.community.playstation.net
+ps5.np.playstation.net
+psn-rsc.prod.dl.playstation.net
+qgve.dl.playstation.net
+rnps-crl.dl.playstation.net
+sf.api.np.km.playstation.net
+sgst.prod.dl.playstation.net
+static-resource.np.community.playstation.net
+t-prof.np.community.playstation.net
+the.gate.playstation.net
+themis.dl.playstation.net
+tmdb.np.dl.playstation.net
+uef.np.dl.playstation.net
+update.net.playstation.net
+update.playstation.net
+urlconfig.api.playstation.com
+us.np.stun.playstation.net
+www.playstation.com
+
+# ===============================================================
+# PS4 Regional System Software Update Servers (Explicit)
+# ===============================================================
+dau01.ps4.update.playstation.net
+dbr01.ps4.update.playstation.net
+dcn01.ps4.update.playstation.net
+deu01.ps4.update.playstation.net
+dhk01.ps4.update.playstation.net
+djp01.ps4.update.playstation.net
+dkr01.ps4.update.playstation.net
+dmx01.ps4.update.playstation.net
+dru01.ps4.update.playstation.net
+dsa01.ps4.update.playstation.net
+dtw01.ps4.update.playstation.net
+duk01.ps4.update.playstation.net
+dus01.ps4.update.playstation.net
+fau01.ps4.update.playstation.net
+fbr01.ps4.update.playstation.net
+fcn01.ps4.update.playstation.net
+feu01.ps4.update.playstation.net
+fhk01.ps4.update.playstation.net
+fjp01.ps4.update.playstation.net
+fkr01.ps4.update.playstation.net
+fmx01.ps4.update.playstation.net
+fru01.ps4.update.playstation.net
+fsa01.ps4.update.playstation.net
+ftw01.ps4.update.playstation.net
+fuk01.ps4.update.playstation.net
+fus01.ps4.update.playstation.net
+hau01.ps4.update.playstation.net
+hbr01.ps4.update.playstation.net
+hcn01.ps4.update.playstation.net
+heu01.ps4.update.playstation.net
+hhk01.ps4.update.playstation.net
+hjp01.ps4.update.playstation.net
+hkr01.ps4.update.playstation.net
+hmx01.ps4.update.playstation.net
+hru01.ps4.update.playstation.net
+hsa01.ps4.update.playstation.net
+htw01.ps4.update.playstation.net
+huk01.ps4.update.playstation.net
+hus01.ps4.update.playstation.net
+
+# ===============================================================
+# PS5 Regional System Software Update Servers (Explicit)
+# ===============================================================
+dau01.ps5.update.playstation.net
+dbr01.ps5.update.playstation.net
+dcn01.ps5.update.playstation.net
+deu01.ps5.update.playstation.net
+dhk01.ps5.update.playstation.net
+djp01.ps5.update.playstation.net
+dkr01.ps5.update.playstation.net
+dmx01.ps5.update.playstation.net
+dru01.ps5.update.playstation.net
+dsa01.ps5.update.playstation.net
+dtw01.ps5.update.playstation.net
+duk01.ps5.update.playstation.net
+dus01.ps5.update.playstation.net
+fau01.ps5.update.playstation.net
+fbr01.ps5.update.playstation.net
+fcn01.ps5.update.playstation.net
+feu01.ps5.update.playstation.net
+fhk01.ps5.update.playstation.net
+fjp01.ps5.update.playstation.net
+fkr01.ps5.update.playstation.net
+fmx01.ps5.update.playstation.net
+fru01.ps5.update.playstation.net
+fsa01.ps5.update.playstation.net
+ftw01.ps5.update.playstation.net
+fuk01.ps5.update.playstation.net
+fus01.ps5.update.playstation.net
+hau01.ps5.update.playstation.net
+hbr01.ps5.update.playstation.net
+hcn01.ps5.update.playstation.net
+heu01.ps5.update.playstation.net
+hhk01.ps5.update.playstation.net
+hjp01.ps5.update.playstation.net
+hkr01.ps5.update.playstation.net
+hmx01.ps5.update.playstation.net
+hru01.ps5.update.playstation.net
+hsa01.ps5.update.playstation.net
+htw01.ps5.update.playstation.net
+huk01.ps5.update.playstation.net
+hus01.ps5.update.playstation.net
